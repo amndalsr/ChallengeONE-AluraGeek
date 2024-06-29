@@ -20,6 +20,7 @@ body {
   align-items: baseline;
   flex-direction: row;
   margin-top: 90px;
+  margin-bottom: 40px;
 }
 
 .produtos {
@@ -49,12 +50,12 @@ body {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  margin-bottom: 45px
+  margin-bottom: 45px;
 }
 
 .card_informacoes {
   display: flex;
-  justify-content: baseline;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: #5d04d9;
@@ -63,6 +64,7 @@ body {
   border-radius: 10px;
   width: 170px;
   height: 220px;
+  margin-bottom: 20px;
 }
 
 .imagem_produto {
@@ -73,9 +75,16 @@ body {
   border: 3px solid #000000;
   background-color: rgb(255, 255, 255);
   margin-bottom: 10px;
+  position: relative;
 }
 
 .imagem_produto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .card_informacoes p {
@@ -83,20 +92,25 @@ body {
   font-size: 16px;
   font-weight: 300;
   color: white;
+  margin-bottom: 15px;
 }
 
 .info_compra {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
+.info_compra p {
+  margin: 0;
+  font-weight: 500;
+}
 
-
-
-
+.info_compra img {
+  max-width: 30px;
+  cursor: pointer;
+}
 
 .criar_produto {
   display: flex;
@@ -116,16 +130,76 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
-  background-color: antiquewhite;
+  width: 400px;
 }
 
 .formulario_conteudo {
   display: flex;
   flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.formulario_conteudo input {
+  border: 3px solid #03318c;
+  border-radius: 50px;
+  padding: 15px 15px;
+}
+
+.formulario_conteudo input::placeholder {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  font-weight: 700;
+  color: #03318c;
 }
 
 .botoes {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.btn_guardar {
+  background-color: #03318c;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 60px;
+}
+
+.btn_limpar {
+  background-color: white;
+  color: #03318c;
+  border: 3px solid #03318c;
+  border-radius: 15px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 60px;
+}
+
+.rodape {
+  bottom: 0;
+  width: 100%;
+  background-color: #5d04d9;
+  color: white;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.rodape h2 {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.rodape h3 {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 20px;
 }
