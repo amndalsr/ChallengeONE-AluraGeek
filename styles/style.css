@@ -1,0 +1,131 @@
+body {
+  font-family: "Press Start 2P", system-ui;
+  background-color: white;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #5d04d9;
+}
+
+.cabecalho img {
+  padding: 15px 0px;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-direction: row;
+  margin-top: 90px;
+}
+
+.produtos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.produtos h1 {
+  font-family: "Press Start 2P", system-ui;
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.cards_produtos {
+  display: flex;
+  justify-content: baseline;
+  flex-direction: column;
+  width: 700px;
+  height: 600px;
+  padding: 15px;
+  overflow: auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 45px
+}
+
+.card_informacoes {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  flex-direction: column;
+  background-color: #5d04d9;
+  border: 3px solid #000000;
+  padding: 20px;
+  border-radius: 10px;
+  width: 170px;
+  height: 220px;
+}
+
+.imagem_produto {
+  width: 180px;
+  height: 260px;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 3px solid #000000;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+.imagem_produto img {
+}
+
+.card_informacoes p {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+}
+
+.info_compra {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+.criar_produto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.criar_produto h1 {
+  font-family: "Press Start 2P", system-ui;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+.formulario_conteudo {
+  display: flex;
+  flex-direction: column;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-around;
+}
