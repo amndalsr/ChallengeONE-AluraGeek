@@ -2,7 +2,7 @@
 
 ## Alura Geek - Desafio #3
 
-☁️ Deploy: <a href="#">AluraGeek</a>
+☁️ Deploy: <a href="https://loja-geek-six.vercel.app">AluraGeek</a>
 
 ### 🚀 Sobre o Desafio
 
